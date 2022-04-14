@@ -4,7 +4,7 @@ exercicio de docker com 2 container
 
   docker pull mysql:5.7
 
-  docker run --name mysql5 -e MYSQL_ROOT_PASSWORD=mudar123 -p 3307:3307 -d mysql:5.7
+  docker run --name mysql5 -e MYSQL_ROOT_PASSWORD=admin -p 3307:3307 -d mysql:5.7
 
   docker ps
 
